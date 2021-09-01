@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div class="warpper fl">
+        <div class="main">
+            <div class="head">
+<div style="background-color:#000042;color:white;padding:20px;">
+
+<Center> <h1 style="color:white">Thyroid Disease Detection</h1> <br></center> 
+</div> 
+<div class="form fl">
+                <form action="/predict" method="POST">
+                    <p class="name">
+<Center><b>Age</b></p>
+<input type="text" name="age" placeholder="Age" id="age" class="name-inp"></p>
+<p class="name"> <br></center> 
+<Center><b>Sex</b></p>
+<input type="text" name="sex" placeholder="Male-1, Female-0" id="sex" class="name-inp"></P>
+<p class="name"> <br></center>
+<Center><b>Thyroid_stimulating_hormone_level</b></p>
+<input type="text" name="TSH" placeholder="0.4 to 24.0 mlU/L" id="TSH" class="name-inp"></p>
+<p class="name"> <br></center>
+<Center><b>Total_thyroxine_TT4</b></p>
+<input type="text" name="TT4" placeholder="30-140" id="TT4" class="name-inp"></P>
+<p class="name"> <br></center>
+<Center><b>Free_thyroxine_index</b></p>
+<input type="text" name="FTI" placeholder="30-150" id="FTI" class="name-inp"></p>
+<p class="name"> <br></center>
+<Center><b>On_thyroxine_medication</b></p>
+<input type="text" name="on_thyroxine" placeholder="True-1, False-0" id="on_thyroxine" class="name-inp"></P>
+<p class="name"> <br></center>
+<Center><b>On_antithyroid_medication</b></p>
+<input type="text" name="on_antithyroid_medication" placeholder="True-1, False-0" id="on_antithyroid_medication" class="name-inp"></p>
+<p class="name"> <br></center>
+<Center><b> Goitre</b></p>
+<input type="number" name="goitre" placeholder="True-1, False-0" id="goitre" class="name-inp"></P>
+<p class="name"> <br></center>
+<Center><b>Hypopituitary</b></p>
+<input type="text" name="hypopituitary" placeholder="True-1, False-0" id="hypopituitary" class="name-inp"></p>
+<p class="name"> <br></center>
+<Center><b>Psychological_symptoms</b></p>
+<input type="number" name="psych" placeholder="True-1, False-0" id="psych" class="name-inp"></P>
+<p class="name"> <br></center>
+<Center><b>T3_measured</b></p>
+<input type="text" name="T3_measured" placeholder="True-1, False-0" id="T3_measured" class="name-inp"></P>
+<p class="name"> <br></center>
+<Center><b><input type="submit" name="sb" value="Predict" class="sub"></p> <br></b></center>
+</form>
+
+<Center> <h2 style="color:blue"> {{prediction_text}}</h2></center>
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
