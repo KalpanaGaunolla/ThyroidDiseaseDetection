@@ -11,4 +11,13 @@ https://thyroid-disease-detection132.herokuapp.com/
 ![Screenshot (339)](https://user-images.githubusercontent.com/81810275/131874488-10be3b94-6f3c-481b-a0f7-332f17efdf92.png)
 ![Screenshot (336)](https://user-images.githubusercontent.com/81810275/131875701-2f68ddcf-82fc-4550-b9cc-d14c13228e71.png)
 
+## Technical Aspect
+* Python 3.9
+*	Front-end: HTML, CSS
+*	Back-end: Flask
+*	IDE: Jupyter Notebook, PyCharm
+*	Database: MongoDB Atlas
+*	Deployment: Heroku
+
+
 
