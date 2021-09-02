@@ -10,8 +10,8 @@ model = joblib.load('Thyroid_model.pkl')
 
 app=Flask(__name__)
 
-app.config['MONGO_DBNAME']='Data'
-app.config["MONGO_URI"]='mongodb://localhost:27017/Data'
+app.config['MONGO_DBNAME']='mydb'
+app.config["MONGO_URI"]='mongodb+srv://kalpuG:12345@mydb.ydqwp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 mongo=PyMongo(app)
 
