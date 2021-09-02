@@ -24,7 +24,38 @@ Code is written in Python 3.9. If you don't have python installed on your system
 * Create virtual environment - *conda create -n myenv python=3.8*
 *	Activate the environment - *conda activate myenv*
 *	Install the packages - *pip install -r requirements.txt*
-*	Run the app – *python app.py*
+*	Run the app - *python app.py*
+
+## Workflow
+
+### Data Collection
+Thyroid Disease Data Set from UCI Machine Learning Repository
+
+### Data Pre-processing
+* Missing values handling by Simple imputation (median strategy)
+*	Outliers detection and removal by boxplot and percentile methods
+*	Categorical features handling by ordinal encoding and label encoding
+*	Feature scaling done by Standard Scalar method
+*	Imbalanced dataset handled by SMOTE
+*	Feature selection done by forward feature selection
+
+### Model Creation and Evaluation
+*	Various classification algorithms like Logistic Regression, Random Forest, Decision Tree, Naïve Bayes, Support Vector Machine tested.
+*	Random Forest, Decision Tree and Logistic regression were given better results. Random Forest was chosen for the final model training and testing.
+*	Hyper parameter tuning was performed.
+*	Model performance evaluated based on accuracy, confusion matrix, classification report.
+
+### Database Connection
+MongoDB Atlas database used for this project
+
+### Model Deployment
+The final model is deployed using on Heroku using Flask framework
+
+## Authors
+**Kalpana Gaunolla**
+**Ojjaswi Nirmal**
+
+### If you like this project, please do give the star. We are open to your suggestions. 
 
 
 
