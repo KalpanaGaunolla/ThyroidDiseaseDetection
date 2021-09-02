@@ -6,3 +6,6 @@ The main objective of this project is to predict if a person is having compensat
 
 ## Website link
 https://thyroid-disease-detection132.herokuapp.com/
+
+## Demo
+
