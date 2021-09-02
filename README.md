@@ -8,4 +8,6 @@ The main objective of this project is to predict if a person is having compensat
 https://thyroid-disease-detection132.herokuapp.com/
 
 ## Demo
+![Screenshot (335)](https://user-images.githubusercontent.com/81810275/131873426-21038796-eb5c-4796-b7b5-e54768ffde70.png)
+![Screenshot (336)](https://user-images.githubusercontent.com/81810275/131873497-2d482e9a-8bf9-44cf-94ca-ffdbb35aea7e.png)
 
