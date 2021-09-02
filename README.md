@@ -11,13 +11,20 @@ https://thyroid-disease-detection132.herokuapp.com/
 ![Screenshot (339)](https://user-images.githubusercontent.com/81810275/131874488-10be3b94-6f3c-481b-a0f7-332f17efdf92.png)
 ![Screenshot (336)](https://user-images.githubusercontent.com/81810275/131875701-2f68ddcf-82fc-4550-b9cc-d14c13228e71.png)
 
-## Technical Aspect
+## Technical aspect
 * Python 3.9
 *	Front-end: HTML, CSS
 *	Back-end: Flask
 *	IDE: Jupyter Notebook, PyCharm
 *	Database: MongoDB Atlas
 *	Deployment: Heroku
+
+## How to run this app
+Code is written in Python 3.9. If you don't have python installed on your system, click here https://www.python.org/downloads/ to install.
+* Create virtual environment - *conda create -n myenv python=3.8*
+*	Activate the environment - *conda activate myenv*
+*	Install the packages - *pip install -r requirements.txt*
+*	Run the app – *python app.py*
 
 
 
