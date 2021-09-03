@@ -8,7 +8,7 @@ The main objective of this project is to predict if a person is having compensat
 https://thyroid-disease-detection132.herokuapp.com/
 
 ## Demo
-Youtube link
+https://youtu.be/Vkn9Hi-M3r0
 
 ## Technical aspect
 * Python 3.9
