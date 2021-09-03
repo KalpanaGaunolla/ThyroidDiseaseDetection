@@ -51,8 +51,10 @@ MongoDB Atlas database used for this project
 The final model is deployed using on Heroku using Flask framework
 
 ## Authors
-**Kalpana Gaunolla**
-**Ojjaswi Nirmal**
+**Kalpana Gaunolla** - https://www.linkedin.com/in/kalpana-gaunolla/
+
+**Ojjaswi Nirmal**  -  https://www.linkedin.com/in/ojjaswi-nirmal-27b8961a3/
+
 
 ### If you like this project, please do give the star. We are open to your suggestions. 
 
