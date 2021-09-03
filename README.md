@@ -56,7 +56,7 @@ The final model is deployed using on Heroku using Flask framework
 **Ojjaswi Nirmal**  -  https://www.linkedin.com/in/ojjaswi-nirmal-27b8961a3/
 
 
-### If you like this project, please do give the star. We are open to your suggestions. 
+### If you like this project, please do give the star. If you have any suggestions or issues, please drop us a message. 
 
 
 
