@@ -2,7 +2,7 @@
 
 Thyroid disease a very common problem in India, more than one crore people are suffering with the disease every year. Thyroid disorder can speed up or slow down the metabolism of the body.
 
-The main objective of this project is to predict if a person is having compensated hypothyroid, primary hypothyroid, secondary hypothyroid or negative (no thyroid) with the help of Machine Learning. Classification algorithms such as Logistic regression, Random Forest, Decision Tree, Naïve Bayes, Support Vector Machine have been trained on the thyroid dataset, UCI Machine Learning repository. Random Forest performed well with better accuracy (98%), precision and recall, ROC curve. After hyper parameter tuning, application has deployed on Heroku with the help of flask.
+The main objective of this project is to predict if a person is having compensated hypothyroid, primary hypothyroid, secondary hypothyroid or negative (no thyroid) with the help of Machine Learning. Classification algorithms such as Logistic regression, Random Forest, Decision Tree, Naïve Bayes, Support Vector Machine have been trained on the thyroid dataset, UCI Machine Learning repository. Random Forest performed well with better accuracy (98%), precision and recall. After hyper parameter tuning, application has deployed on Heroku with the help of flask.
 
 ## Website link
 https://thyroid-disease-detection132.herokuapp.com/
@@ -42,7 +42,7 @@ Thyroid Disease Data Set from UCI Machine Learning Repository
 *	Various classification algorithms like Logistic Regression, Random Forest, Decision Tree, Naïve Bayes, Support Vector Machine tested.
 *	Random Forest, Decision Tree and Logistic regression were given better results. Random Forest was chosen for the final model training and testing.
 *	Hyper parameter tuning was performed.
-*	Model performance evaluated based on accuracy, confusion matrix, classification report, ROC curve.
+*	Model performance evaluated based on accuracy, confusion matrix, classification report.
 
 ### Database Connection
 MongoDB Atlas database used for this project
