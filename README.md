@@ -10,6 +10,8 @@ https://thyroid-disease-detection132.herokuapp.com/
 ## Demo
 https://youtu.be/Vkn9Hi-M3r0
 
+![Github_demo](https://user-images.githubusercontent.com/81810275/132662938-f047d035-5dde-441b-90c7-4e0d295abb55.gif)
+
 ## Technical aspect
 * Python 3.9
 *	Front-end: HTML, CSS
