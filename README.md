@@ -50,7 +50,7 @@ Thyroid Disease Data Set from UCI Machine Learning Repository
 MongoDB Atlas database used for this project
 
 ### Model Deployment
-The final model is deployed using on Heroku using Flask framework
+The final model is deployed on Heroku using Flask framework
 
 ## Authors
 **Kalpana Gaunolla** - https://www.linkedin.com/in/kalpana-gaunolla/
