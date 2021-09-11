@@ -22,7 +22,7 @@ https://youtu.be/Vkn9Hi-M3r0
 
 ## How to run this app
 Code is written in Python 3.9. If you don't have python installed on your system, click here https://www.python.org/downloads/ to install.
-* Create virtual environment - *conda create -n myenv python=3.8*
+* Create virtual environment - *conda create -n myenv python=3.9*
 *	Activate the environment - *conda activate myenv*
 *	Install the packages - *pip install -r requirements.txt*
 *	Run the app - *python app.py*
