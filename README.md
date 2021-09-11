@@ -25,7 +25,7 @@ Code is written in Python 3.9. If you don't have python installed on your system
 * Create virtual environment - *conda create -n myenv python=3.9*
 *	Activate the environment - *conda activate myenv*
 *	Install the packages - *pip install -r requirements.txt*
-*	Run the app - *python app.py*
+*	Run the app - *python main.py*
 
 ## Workflow
 
